@@ -9,7 +9,6 @@ branco = '#ffffff'
 azul = '#00008b'
 verm = '#ff4500'
 roxo = '#8a2be2'
-#8a2be2
 verde = '#28a745'
 f = '#141414'
 
@@ -138,11 +137,11 @@ def gameover():
     i_tentativas['text']='Tentativas: '+str(tentativas)
     i_pontos['text']='Pontuação: '+str(pontuaçao)
 
-#Frame top
+#frame top
 nome=Label(frame_top, text='Adivinhe o número', anchor='center', font=("Ivy 22 bold"), bg=f, fg=roxo)
 nome.place(x=122, y=0)
 
-#Frame corpo
+#frame corpo
 i_pontos=Label(frame_corpo, text='Pontuação: 0', anchor='center', font=("Ivy 12 bold"), bg=f, fg=branco)
 i_pontos.place(x=0, y=30)
 
